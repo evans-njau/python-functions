@@ -23,15 +23,15 @@ y = int(input("Enter first value: "))
 
 if operator == "add":
     value = add(x,y)
-    print(value)
+    print(f"{x} + {y} = {value}")
 elif(operator == "subtract"):
     value = subtract(x,y) 
-    print(value)
+    print(f"{x} - {y} = {value}")
 elif(operator == "multiply"):
     value = multiply(x,y)
-    print(value)
+    print(f"{x} * {y} = {value}")
 elif(operator == "divide"):
     value = divide(x,y) 
-    print(value) 
+    print(f"{x} / {y} = {value}") 
 else:
     print("choose a valid operator!add")            
